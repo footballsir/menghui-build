@@ -103,7 +103,7 @@ html {
 
 .header-title {
     color: #2558A4;
-    font-family: Onest;
+    /* font-family: Onest; */
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -140,7 +140,7 @@ html {
     background: #D5FDFE;
     color: #1D1B20;
     text-align: center;
-    font-family: Onest;
+    /* font-family: Onest; */
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -222,7 +222,7 @@ html {
     border: 1px solid rgba(0, 0, 0, 0.12);
     background: #FFF;
     color: #1D1B20;
-    font-family: Onest;
+    /* font-family: Onest; */
     font-size: 16px;
     font-weight: 600;
     line-height: normal;
