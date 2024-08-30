@@ -6,7 +6,7 @@ import Link from 'next/link';
 import dividerS from '../img/divider-s.svg'
 import p1 from '../img/p11.png'
 import p2 from '../img/p12.png'
-import p3 from '../img/p13.jpg'
+import p3 from '../img/p13.png'
 
 
 
