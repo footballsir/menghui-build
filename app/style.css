@@ -5,6 +5,10 @@ html {
     background-color: #F1F4F8;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 *,
 *::before,
 *::after {
@@ -158,6 +162,7 @@ html {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    white-space: nowrap;
 }
 
 .project-card {
@@ -312,8 +317,6 @@ a.link {
     justify-content: flex-start;
     gap: 0.5rem;
 }
-
-
 
 
 

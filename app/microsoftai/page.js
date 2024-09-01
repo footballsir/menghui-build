@@ -18,12 +18,12 @@ export default function Microedge() {
                 <div className='container-page'>
                     <div className='container-page-flex'>
                         <div className='h1 max-w-3xl'>Microsoft AI - Hack with Figma plugin and Microsoft teams apps for AI powered research</div>
-                        <div className='p1 mt-10 max-w-3xl'>In 2023 the wave of GPT stormed tech industry. AI is very important not only for Microsoft products but also the way we work. When it first came out I took the chance to develop prompt engineering. I developed a Figma plugin helped 500+ Microsoft designers, engineers, product managers in China and US to better conduct user research by giving creating discussion guide and research templates.</div>
+                        <div className='p1 mt-10 max-w-3xl'>I developed a Figma plugin to help 500+ Microsoft designers, engineers, product managers in China and US to better conduct user research by creating discussion guide and research templates. In 2023 the wave of GPT stormed tech industry. AI is important not only for Microsoft products but also the way we work. When it first came out I took the chance to practice prompt engineering. The project own <a className={'link'}>Microsoft hackathon #1 place</a> and impacted lots of people's work flow.</div>
                     </div>
 
                     <div className='container-page-flex mt-20'>
                         <div style={{ position: 'relative', height: '0', paddingBottom: '64.63195691202873%' }}>
-                            <iframe src={"https://www.loom.com/embed/c040c51988e843629c1d260b6b755912?sid=a0474905-026c-4d46-a367-b66b4a728c16"} frameborder={"0"} webkitallowfullscreen mozallowfullscreen allowfullscreen style={{ width: '100%', height: '100%', position: 'absolute', top: '0', left: '0' }}></iframe>
+                            <iframe src={"https://www.loom.com/embed/c040c51988e843629c1d260b6b755912?sid=a0474905-026c-4d46-a367-b66b4a728c16"} frameBorder={"0"} allowFullScreen style={{ width: '100%', height: '100%', position: 'absolute', top: '0', left: '0' }}></iframe>
                         </div>
                     </div>
 

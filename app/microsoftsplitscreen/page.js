@@ -16,7 +16,7 @@ export default function Microedge() {
                 <div className='container-page'>
                     <div className='container-page-flex'>
                         <div className='h1 max-w-3xl'>Microsoft - A closer look to Edge's #1 impactful feature - split screen from 0 to 1</div>
-                        <div className='p1 mt-10 max-w-3xl'>I am the design lead for split screen from 0 to 1, partnered with China and US product, engineer team to drive the development. Split screen allows people to view 2 tabs in one screen, It is key for our vision to make Edge browser like system platform. From launch, split screen is the most well rated feature in Edge ever, and drove incredible business impact for a gain of 0.4% market share and about 80 million dollars. In this case study, we’ll walk through it from ground up to several rounds of iterations.</div>
+                        <div className='p1 mt-10 max-w-3xl'>Split screen is the most well rated feature in Edge ever, and I was recognized by <a target="_blank" className={'link'} href="https://www.linkedin.com/in/satyanadella/">Satya</a> - CEO of Microsoft for leading the design. I am responsible for building split screen from 0 to 1, partner with China and US product, engineer team to drive the development. Split screen allows people to view 2 tabs in one screen, it is key for our vision to make Edge act line "internet computer". From launch, it drove incredible business impact for a gain of 0.4% market share and 80 million dollars. In this case study, we’ll walk through it from 0 to rounds of iterations.</div>
                         <Link href={'https://www.microsoft.com/en-us/edge'} target='_black' className='button mt-10'>Visit Edge Browser</Link>
                     </div>
 
@@ -29,7 +29,7 @@ export default function Microedge() {
 
                     <div className='container-page-flex mt-48'>
                         <div className='w-6 h-6 rounded-full background-a mb-4'></div>
-                        <div className='h1 max-w-3xl'>Ground up the concept, be inclusive - develop for All users not just Microsoft users</div>
+                        <div className='h1 max-w-3xl'>Ground up the concept, be inclusive - develop for all users not just Microsoft users</div>
                         <div className='p1 mt-10 max-w-3xl'>The initial concept came from one of Edge leaders, who wants to help Microsoft Office users to view documents side by side, the idea was to provide value between Microsoft products for growth. However, when I joined the project, we pivoted the direction from just for Office users to all web users. I believe as a platform it’s our responsibility to build for all users not just Microsoft users. </div>
                         <div className='p1 mt-10 max-w-3xl'>For all Edge users we empower them for 2 scenarios:
                             <br />1. Open a link in split screen from the current page to stay in context.

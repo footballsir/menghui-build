@@ -10,7 +10,9 @@ export default function Header(props) {
                     <div className='w-4 h-4 rounded-full background-a'></div>
                     <div className='text-base font-extrabold color-a'>Home</div>
                 </Link>
-                <div className='header-title opacity-0 md:opacity-100'>{props.title}</div>
+                <div className='header-title opacity-0 md:opacity-100'>
+                    {props.title}
+                </div>
                 <div className='flex items-center gap-3 opacity-0'>
                     <div className='w-4 h-4 rounded-full background-a'></div>
                     <div className='text-base font-extrabold color-a'>Home</div>
