@@ -5,12 +5,12 @@ export default function Header(props) {
     let header
     if (props.page === true) {
         header = (
-            <div className='container flex items-center justify-between relative'>
+            <div className='container flex items-center justify-between relative gap-4'>
                 <Link href={'/'} className='flex items-center gap-3'>
                     <div className='w-4 h-4 rounded-full background-a'></div>
                     <div className='text-base font-extrabold color-a'>Home</div>
                 </Link>
-                <div className='header-title'>{props.title}</div>
+                <div className='header-title opacity-0 md:opacity-100'>{props.title}</div>
                 <div className='flex items-center gap-3 opacity-0'>
                     <div className='w-4 h-4 rounded-full background-a'></div>
                     <div className='text-base font-extrabold color-a'>Home</div>

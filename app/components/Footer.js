@@ -12,12 +12,12 @@ import Link from 'next/link';
 export default function Header() {
     return (
         <div className="container my-32 flex items-center z-50">
-            <div className='w-full flex justify-between items-center gap-4'>
+            <div className='w-full flex justify-between items-start md:items-center gap-4 flex-col xl:flex-row'>
                 <div className='flex items-center gap-4'>
                     <Image src={profileimage} className='h-10 w-7'></Image>
                     <div className='p1'>Designed and developed by Menghui Hu @ 2024</div>
                 </div>
-                <div className='flex justify-betwee gap-2' style={{ color: '#2d2d2d' }}>
+                <div className='flex justify-betwee gap-3 flex-col md:flex-row' style={{ color: '#2d2d2d' }}>
                     <Link target='_blank' className='footer-link' href={'https://www.linkedin.com/in/menghui-hu-773566130/'}>
                         <Image src={linkedin} className='w-5 h-5'></Image>
                         <div>LinkedIn</div>

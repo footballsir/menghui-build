@@ -55,7 +55,7 @@ export default function Home() {
         </div>
       </ div>
 
-      <div className={`container mt-24 grid grid-cols-3 gap-9 z-10`}>
+      <div className={`container mt-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-9 z-10`}>
         <Link href={'/microsoftedge'}>
           <ProjectCard tag={[['Product design', 'blue'], ['Design leader', 'yellow']]} title1={'Microsoft'} title2={'Edge browser - Reimagine world\'s #2 used browser for 240 million daily users'} image={project1}></ProjectCard>
         </Link>
@@ -77,9 +77,9 @@ export default function Home() {
         <Link href={'/loader'}>
           <ProjectCard tag={[['Creative', 'red'], ['Javascript', 'purple']]} title1={'Prototype'} title2={'Upthere\'s loader with Javascript'} image={project7}></ProjectCard>
         </Link>
-        {/* <Link href={'/confetti'}>
+        <Link href={'/confetti'}>
           <ProjectCard tag={[['Creative', 'red'], ['Python', 'purple']]} title1={'Prototype'} title2={'Confetti for celebration moments'} image={project8}></ProjectCard>
-        </Link> */}
+        </Link>
         <Link href={'/surveymonkey'}>
           <ProjectCard tag={[['Product design', 'blue']]} title1={'Surveymonkey'} title2={'Core survey creation and onboarding experience'} image={project9}></ProjectCard>
         </Link>
@@ -94,7 +94,7 @@ export default function Home() {
       <Image src={dividerS} alt="divider" className="my-32" />
 
       <div className="container">
-        <div className="bio ">
+        <div className="bio">
           <div className="p1 w-full">I’m currently a senior design leader at Microsoft Edge team. Since 2016 I designed products with companies such as Microsoft, Bytedance, SurveyMonkey and more. I love building products that solve people problem and tinkering with code.<br /><br />At early 2012, I discovered my passion for building internet products when I was at my undergrad studying industrial design. That led me to further pursue human computer interaction at Carnegie Mellon University in grad school.</div>
           <div className="p1 w-full">My first job as a designer started at SurveyMonkey in 2016, where I designed its onboarding with <a target="_blank" className={'link'} href="https://www.linkedin.com/in/luciaciccio/">Lucia Ciccio</a> and core survey experience with <a target="_blank" className={'link'} href="https://www.linkedin.com/in/supafrenz/">Jonathan Remulla</a>. After SurveyMonkey, I joined Laurent Baumann and the rest of the incredibly talented folks at Uphtere as a founding designer, later sold the company to Western Digital.<br /><br />In 2020 When padenmic came, I decided to relocate back to China for a while, then joined Bytedance as a product design lead/manager on its enterprise products. I led the design of innovation lab for video conference, and part of design archetecture projects across the orgnization. I incubated Lark Minutes from 0 to 1 and I lead several big version updates for Lark.</div>
           <div className="p1 w-full">In my current job at Microsoft, I lead design and a team of talented designers for Edge browser globally. I partner with <a target="_blank" className={'link'} href="https://www.linkedin.com/in/fryedesign/">Rob Frye</a>, the head of Design to drive the browser vision in the era of AI. Edge has now ranked #2 as of usage in the browser market with over 240 million daily active users.<br /><br /> I love building things that are useful, ethical, and beautiful.</div>

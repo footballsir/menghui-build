@@ -107,7 +107,7 @@ export default function Microedge() {
                     </div>
 
                     <div className='container-page-flex'>
-                        <div className='flex mt-20 justify-between gap-6'>
+                        <div className='flex mt-20 justify-between gap-6 flex-col md:flex-row'>
                             <div className='h-xl flex flex-col justify-between p-12 w-full h-96 rounded-3xl' style={{ backgroundColor: '#F8F9FA', color: '#007CF3', fontWeight: '500' }}>
                                 <div>&gt; 0.5 million</div>
                                 <div className='p1'>Monthly active users</div>

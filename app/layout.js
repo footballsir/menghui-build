@@ -1,4 +1,4 @@
-import { Inter } from "next/font/google";
+import { Content, Inter } from "next/font/google";
 import { Onest } from "next/font/google";
 
 import "./globals.css";

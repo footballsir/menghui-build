@@ -36,7 +36,7 @@ export default function Microedge() {
                         <div className='h1 max-w-3xl'>Redesign the fundamental of Edge, it’s a design initiative but a product direction</div>
                         <div className='p1 mt-10 max-w-3xl'>Although Edge made its remarkable growth in the past 4 years since adopting Chromium and become world’s #2 used browser, it’s problems also start to reveal. Our users rate Edge as professional, but also tedious and cluttered, it’s less appealing compare to other browsers, especially Chrome. The massive amount of features that have been added to Edge made it’s framework shaky and hard to understand for users. So we realized it is the time to re-think our framework and tip the image around in our users heart, wo we can keep up in the industry.</div>
 
-                        <div className='flex mt-20 justify-between gap-6'>
+                        <div className='flex mt-20 justify-between gap-6 flex-col md:flex-row'>
                             <div className='h-xl flex flex-col justify-between p-12 w-full h-96 rounded-3xl' style={{ backgroundColor: '#F8F9FA', color: '#007CF3', fontWeight: '500' }}>
                                 <div>85%</div>
                                 <div className='p1'>Edge users have 2 browsers and usually use Edge only for work</div>
@@ -89,7 +89,7 @@ export default function Microedge() {
                     </div>
 
                     <div className='container-page-flex'>
-                        <div className='flex mt-20 justify-between gap-6'>
+                        <div className='flex mt-20 justify-between gap-6 flex-col md:flex-row'>
                             <div className='h-xl flex flex-col justify-between p-12 w-full h-96 rounded-3xl' style={{ backgroundColor: '#F8F9FA', color: '#007CF3', fontWeight: '500' }}>
                                 <div>0.4%</div>
                                 <div className='p1'>Market share is gained through split screen</div>
@@ -123,7 +123,7 @@ export default function Microedge() {
                     <div className='container-page-flex'>
                         <div className='p1 mt-20 max-w-3xl'>People are very excited about Copilot when it is first shipped. And we do too, and we believe it could change the browser industry. So our daily user of Copilot in Edge climbed to 2 million daily users very soon. However not everything is perfect, despite the rising DAU, we have some alarming patterns - the engagement seems low. So we discovered that the AI should be more integrated with the browser.
                         </div>
-                        <div className='flex mt-20 justify-between gap-6'>
+                        <div className='flex mt-20 justify-between gap-6 flex-col md:flex-row'>
                             <div className='h-xl flex flex-col justify-between p-12 w-full h-96 rounded-3xl' style={{ backgroundColor: '#F8F9FA', color: '#007CF3', fontWeight: '500' }}>
                                 <div>80%</div>
                                 <div className='p1'>Users only interact once in a session</div>
