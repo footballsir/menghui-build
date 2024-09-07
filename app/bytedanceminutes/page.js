@@ -54,7 +54,7 @@ export default function Microedge() {
                         <div className='h1 max-w-3xl'>Iteration that drove growth</div>
                         <div className='p1 mt-10 max-w-3xl'>After launching the product I drove multiple rounds of iterations that really boosted the growth of product. The transcription accuracy and efficiency to share with others are top 2 problems we encountered. </div>
 
-                        <div className='p1 mt-10 max-w-3xl'>To improve the share efficiency and make the product go virus we build the feature clip. Minutes are usually generated from meetings, interviews that easily go beyond an hour. With video clip, the user can highlight the most important information and share that with others.</div>
+                        <div className='p1 mt-6 max-w-3xl'>To improve the share efficiency and make the product go virus we build the feature clip. Minutes are usually generated from meetings, interviews that easily go beyond an hour. With video clip, the user can highlight the most important information and share that with others.</div>
                     </div>
 
                     <div className='container-page-full mt-20' style={{ background: 'linear-gradient(108deg, #E5C4FF 0%, #F6CBD0 100%)' }}>

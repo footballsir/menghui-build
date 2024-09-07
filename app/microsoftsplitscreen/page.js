@@ -30,11 +30,11 @@ export default function Microedge() {
                     <div className='container-page-flex mt-48'>
                         <div className='w-6 h-6 rounded-full background-a mb-4'></div>
                         <div className='h1 max-w-3xl'>Ground up the concept, be inclusive - develop for all users not just Microsoft users</div>
-                        <div className='p1 mt-10 max-w-3xl'>The initial concept came from one of Edge leaders, who wants to help Microsoft Office users to view documents side by side, the idea was to provide value between Microsoft products for growth. However, when I joined the project, we pivoted the direction from just for Office users to all web users. I believe as a platform it’s our responsibility to build for all users not just Microsoft users. </div>
-                        <div className='p1 mt-10 max-w-3xl'>For all Edge users we empower them for 2 scenarios:
-                            <br />1. Open a link in split screen from the current page to stay in context.
-                            <br />2. Merge two tabs to view side by side.
-                            <br />And when we build the concept and flight in Edge beta, it proved great success.</div>
+                        <div className='p1 mt-10 max-w-3xl'>The initial concept came from one of Edge leaders, who wants to help Microsoft Office users to view documents side by side, the idea was to provide value between Microsoft products for growth. However, when I joined the project, we pivoted the direction from just for Office users to all web users. I believe as a platform it’s our responsibility to build for all users not just Microsoft users. For all Edge users we empower them for 2 scenarios. And when we build the concept and flight in Edge beta, it proved great success:</div>
+                        <div className='p1 mt-6 max-w-3xl'>
+                            • Open a link in split screen from the current page to stay in context.
+                            <br />• Merge two tabs to view side by side.
+                        </div>
                     </div>
 
                     <div className='container-page-full mt-20'>

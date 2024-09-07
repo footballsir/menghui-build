@@ -39,7 +39,7 @@ export default function Microedge() {
                         <div className='flex mt-20 justify-between gap-6 flex-col md:flex-row'>
                             <div className='h-xl flex flex-col justify-between p-12 w-full h-96 rounded-3xl' style={{ backgroundColor: '#F8F9FA', color: '#007CF3', fontWeight: '500' }}>
                                 <div>85%</div>
-                                <div className='p1'>Edge users have 2 browsers and usually use Edge only for work</div>
+                                <div className='p1'>Edge users have 2 browsers</div>
                             </div>
                             <div className='h-xl flex flex-col justify-between p-12 w-full h-96 rounded-3xl' style={{ backgroundColor: '#F8F9FA', color: '#FFBB25', fontWeight: '500' }}>
                                 <div>25%</div>
@@ -47,7 +47,7 @@ export default function Microedge() {
                             </div>
                         </div>
 
-                        <div className='p1 mt-20 max-w-3xl'>The re-think of Edge browser is a product direction. Our product principles are build around 3 key values: simple, quality and beautiful. And here is how we do it: <div className='mt-6'>1. Build separation between web content and browser content. <br />2. Build modular design system to reallocate the moving piece. <br />3. Build on top of Fluent design system but with Edge’s identity.</div>
+                        <div className='p1 mt-20 max-w-3xl'>The re-think of Edge browser is a product direction. Our product principles are build around 3 key values: simple, quality and beautiful. And here is how we do it: <div className='mt-6'>• Build separation between web content and browser content. <br />• Build modular design system to reallocate the moving pieces. <br />• Build on top of Fluent design system but with Edge’s identity.</div>
                         </div>
                     </div>
 
@@ -92,11 +92,11 @@ export default function Microedge() {
                         <div className='flex mt-20 justify-between gap-6 flex-col md:flex-row'>
                             <div className='h-xl flex flex-col justify-between p-12 w-full h-96 rounded-3xl' style={{ backgroundColor: '#F8F9FA', color: '#007CF3', fontWeight: '500' }}>
                                 <div>0.4%</div>
-                                <div className='p1'>Market share is gained through split screen</div>
+                                <div className='p1'>Browser market share is gained</div>
                             </div>
                             <div className='h-xl flex flex-col justify-between p-12 w-full h-96 rounded-3xl' style={{ backgroundColor: '#F8F9FA', color: '#FFBB25', fontWeight: '500' }}>
                                 <div>80 million</div>
-                                <div className='p1'>Revenue is gained from the possible Ads income through split screen</div>
+                                <div className='p1'>Ads Revenue is gained </div>
                             </div>
                         </div>
                     </div>
@@ -104,12 +104,12 @@ export default function Microedge() {
                     <div className='container-page-flex mt-48'>
                         <div className='w-6 h-6 rounded-full background-a mb-4'></div>
                         <div className='h1 max-w-3xl'>Why is browser the best platform for AI</div>
-                        <div className='p1 mt-10 max-w-3xl'>In the end of 2022, the wave of LLM storms across the world. Everyone wants their business to have something to do with AI. We at Edge also believe AI is the future, but more than that, we believe browser is the best platform for AI.</div>
-                        <div className='p1 mt-10 max-w-3xl'>I believe in the future a general platform with these 3 qualities really matters to operate AI.
-                            <br />1. It is accessible for user at anytime
-                            <br />2. It has access to data
-                            <br />3. It has access to apps
-                            <br />So we shipped our first try with Edge + Copilot:
+                        <div className='p1 mt-10 max-w-3xl'>In the end of 2022, the wave of LLM storms across the world. Everyone wants their business to have something to do with AI. We at Edge also believe AI is the future, but more than that, we believe browser is the best platform for AI. I think in the future a general platform with these 3 qualities dominates "AI service". And based on these three key principles we shipped our first try with "Edge + Copilot".</div>
+                        <div className='p1 mt-6 max-w-3xl'>
+                            • Edge is accessible for user at anytime
+                            <br />• Edge has access to all user data
+                            <br />• Edge has access to all available apps
+                            <br />
                         </div>
                     </div>
 
