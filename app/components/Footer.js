@@ -7,6 +7,7 @@ import replit from '../img/replit.png'
 import notion from '../img/notion.png'
 import github from '../img/github.png'
 import Link from 'next/link';
+import email from '../img/email.png'
 
 
 export default function Header() {
@@ -26,9 +27,13 @@ export default function Header() {
                         <Image src={codepen} className='w-5 h-5'></Image>
                         <div>Codepen</div>
                     </Link>
-                    <Link target='_blank' className='footer-link' href={'https://menghuih.notion.site/Autodesk-project-3456a49aded04106ab7360c0523a08bd'}>
+                    {/* <Link target='_blank' className='footer-link' href={'https://menghuih.notion.site/Autodesk-project-3456a49aded04106ab7360c0523a08bd'}>
                         <Image src={notion} className='w-5 h-5'></Image>
                         <div>Notion</div>
+                    </Link> */}
+                    <Link target='_blank' className='footer-link' href={'mailto: menghuihu0405@gmail.com'}>
+                        <Image src={email} className='w-5 h-5'></Image>
+                        <div>Email</div>
                     </Link>
                     <Link target='_blank' className='footer-link' href={'https://github.com/footballsir'}>
                         <Image src={github} className='w-5 h-5'></Image>
